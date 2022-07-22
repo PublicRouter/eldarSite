@@ -34,7 +34,9 @@
 @media(max-width: 360px) {
     .leveled {
         /* background-size: auto 50%; */
-        background-size:auto pixelated;
+        position: absolute;
+        top: 0px;
+        
     }
 
     .buttonContainer {
