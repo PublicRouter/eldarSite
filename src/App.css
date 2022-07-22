@@ -19,21 +19,17 @@
 
 }
 
-.navi-link {
+/* .navi-link {
 
-} 
+}  */
 
-@media(min-width: 500px) {
+/* @media(min-width: 500px) {
     .leveled {
         min-height: fit-content;
     }
-}
+} */
 
 @media(max-width: 360px) {
-    .leveled {
-        background-size:contain;
-    }
-
     .buttonContainer {
         flex-wrap: wrap;
         justify-content:center;
@@ -41,8 +37,6 @@
     }
 
     .navi-link a {
-        /* max-width: 70px;
-        font-size: .3em; */
      min-width: 65px;   
      padding: 6px;
      margin: 5px;
