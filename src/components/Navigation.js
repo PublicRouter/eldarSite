@@ -8,7 +8,7 @@ import discord from "../images/socialSvgs/discord.svg"
 
 import orcLogo from "../images/orcLogo.png"
 
-export default function Navigation( {updatePage} ) {
+export default function Navigation() {
   return (
     <div className="navigationShell h-[20vh] flex flex-col w-full text-center bg-transparent items-center sm:items-start fixed top-0 z-40">
         <div className='w-full' id="nav">
@@ -30,21 +30,21 @@ export default function Navigation( {updatePage} ) {
             
         </header>
   
-        <ul className='flex font-titleSub items-center justify-center sm:justify-self-start p-1 mb-1 justify-around rounded-lg text-[.8em] text-white p-[1.5px] sm:block sm:mt-[20vh] sm:ml-3 sm:w-[18vw] md:max-w-[13vw]'>
+        <ul className='buttonContainer flex font-titleSub items-center justify-center sm:justify-self-start p-1 mb-1 sm:justify-around rounded-lg text-[.8em] text-white sm:block sm:mt-[20vh] sm:ml-3 '>
             <li className="navi-link ">
-                <a type="button" href="#" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Home</a>
+                <a type="button" href="#" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Home</a>
             </li>
             <li className='navi-link'>
-                <a type="button" href="#about" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">About</a>
+                <a type="button" href="#about" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">About</a>
             </li>
             <li className='navi-link'>
-                <a type="button" href="#first-item" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Roadmap</a>
+                <a type="button" href="#first-item" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Roadmap</a>
             </li>
             <li className='navi-link'>
-                <a type="button" href="#whitePaperTop" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Whitepaper</a>
+                <a type="button" href="#whitePaperTop" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Whitepaper</a>
             </li>
             <li className='navi-link'>
-                <a type="button" href="#teamTop" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Team</a>
+                <a type="button" href="#teamTop" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Team</a>
             </li>
            
         </ul>

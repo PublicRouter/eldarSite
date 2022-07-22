@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    min-height: 485vh;
+    min-height: fit-content;
     /* padding-top: 5vh; */
 
 }
@@ -26,6 +26,22 @@
 @media(min-width: 500px) {
     .leveled {
         min-height: fit-content;
+    }
+}
+
+@media(max-width: 360px) {
+    .buttonContainer {
+        flex-wrap: wrap;
+        justify-content:center;
+
+    }
+
+    .navi-link a {
+        /* max-width: 70px;
+        font-size: .3em; */
+     min-width: 65px;   
+     padding: 6px;
+     margin: 5px;
     }
 }
 
