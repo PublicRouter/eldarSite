@@ -30,6 +30,10 @@
 } */
 
 @media(max-width: 360px) {
+    .leveled {
+        background-size: auto 100%;
+    }
+
     .buttonContainer {
         flex-wrap: wrap;
         justify-content:center;
