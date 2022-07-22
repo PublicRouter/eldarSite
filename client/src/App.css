@@ -18,15 +18,10 @@
     /* padding-top: 5vh; */
 
 }
-/* 
+
 .navi-link {
-    background:  url("./images/wood1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment:local;
-    background-size: cover;
-    background-color: orange;
-} */
+
+} 
 
 @media(min-width: 500px) {
     .leveled {

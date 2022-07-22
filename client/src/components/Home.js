@@ -68,10 +68,10 @@ export default function Home() {
   return (
     <div className='flex flex-column py-5'>
       <header className="masthead h-[100vh] pt-[25vh] sm:pt-[20vh]">
-        <div class="content-center">
-          <div class="text-center p-4 mt-6 ">
+        <div className="content-center">
+          <div className="text-center p-4 mt-6 ">
             <img className="mb-5 mx-auto sm:h-[23vh] sm:w-[35vw]" src={logo} />
-            <a id="about" class="btn bg-orange-700 text-yellow-400 hover:animate-pulse" href="#about">Get Started</a>
+            <a id="about" className="btn bg-orange-700 text-yellow-400 hover:animate-pulse" href="#about">Get Started</a>
           </div>
         </div>
       </header>
@@ -136,7 +136,7 @@ export default function Home() {
       <div className=' min-h-[50vh] sm:min-h-[80vh] mx-auto sm:mx-[10vw] flex-wrap bg-transparent opacity-90 rounded-lg flex justify-center align-items-center w-[75vw] p-2' id="teamTop">
 
     {teamMemberList.map((member) => (
-        <div className='text-yellow-600 text-center text-xs leading-none p-2 items-center justify-items-center bg-stone-900 rounded-lg m-1 h-fit flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[290px]'>
+        <div key={member.id} className='text-yellow-600 text-center text-xs leading-none p-2 items-center justify-items-center bg-stone-900 rounded-lg m-1 h-fit flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[290px]'>
             <img src={member.image} className="h-24 w-18 rounded-full"/>
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>

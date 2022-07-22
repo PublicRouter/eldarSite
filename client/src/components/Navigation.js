@@ -13,7 +13,7 @@ export default function Navigation( {updatePage} ) {
     <div className="navigationShell h-[20vh] flex flex-col w-full text-center bg-transparent items-center sm:items-start fixed top-0 z-40">
         <div className='w-full' id="nav">
             <img src={orcLogo} href='#nav' className='hidden sm:block h-40 w-40 absolute left-28 justify-center align-center sm:left-[2vw] '/>
-            <ul className='text-xs flex p-2 space-around absolute right-2 lg:right-3 lg:top-5' >
+            <ul className='text-xs flex p-2 space-around absolute right-2 md:right-5 md:top-3 lg:right-10 lg:top-5' >
                 <a href="https://twitter.com/Orx_Army" target="_blank" className="m-1">
                     <img src={twitterIcon} className="lg:h-8 lg:w-8"/>
                 </a>
@@ -30,23 +30,23 @@ export default function Navigation( {updatePage} ) {
             
         </header>
   
-        <ul className='flex w-fit flex items-center justify-center sm:justify-self-start p-1 mb-1 justify-around rounded-lg text-[.8em] text-white p-[1.5px] sm:block sm:mt-[20vh] sm:ml-3 sm:w-[18vw] md:max-w-[13vw]'>
-            <li className="navi-link border-2 bg-[rgb(206,158,26,.3)] hover:border-[#CE9E1A] rounded-lg p-1 m-1">
-                <a href="#" className='px-1 hover:text-white'>Home</a>
+        <ul className='flex font-titleSub items-center justify-center sm:justify-self-start p-1 mb-1 justify-around rounded-lg text-[.8em] text-white p-[1.5px] sm:block sm:mt-[20vh] sm:ml-3 sm:w-[18vw] md:max-w-[13vw]'>
+            <li className="navi-link ">
+                <a type="button" href="#" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Home</a>
             </li>
-
-            <li className='navi-link border-2 bg-[rgb(206,158,26,.3)] hover:border-[#CE9E1A] rounded-lg p-1 m-1'>
-                <a href="#about" className='px-1 hover:text-white'>About</a>
+            <li className='navi-link'>
+                <a type="button" href="#about" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">About</a>
             </li>
-            <li className='navi-link border-2 bg-[rgb(206,158,26,.3)] hover:border-[#CE9E1A] rounded-lg p-1 m-1'>
-                <a href="#first-item" className='px-1 hover:text-white'>Road Map</a>
+            <li className='navi-link'>
+                <a type="button" href="#first-item" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Roadmap</a>
             </li>
-            <li className='navi-link border-2 bg-[rgb(206,158,26,.3)] hover:border-[#CE9E1A] rounded-lg p-1 m-1'>
-                <a href="#whitePaperTop" className='px-1 hover:text-white'>White Paper</a>
+            <li className='navi-link'>
+                <a type="button" href="#whitePaperTop" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Whitepaper</a>
             </li>
-            <li className='navi-link border-2 bg-[rgb(206,158,26,.3)] hover:border-[#CE9E1A] rounded-lg p-1 m-1'>
-                <a href="#teamTop" className='px-1 hover:text-white'>Team</a>
+            <li className='navi-link'>
+                <a type="button" href="#teamTop" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-xs min-w-[17vw] sm:min-w-[14vw] max-w-[200px] py-2.5 text-center mr-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Team</a>
             </li>
+           
         </ul>
     </div>
   )
