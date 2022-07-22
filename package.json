@@ -1,25 +1,43 @@
 {
   "homepage": "https://publicrouter.github.io/eldarSite/",
   "name": "eldarsite",
-  "version": "1.0.0",
-  "description": "main website for eldar labs",
-  "main": "index.js",
-  "scripts": {
-    "predeploy": "cd client && npm run build",
-    "deploy": "gh-pages -d client/build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd client && npm run start",
-    "build": "cd client && npm run build",
-    "eject": "cd client && npm run eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@publicrouter:PublicRouter/eldarSite.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "version": "0.1.0",
   "dependencies": {
-    "gh-pages": "^4.0.0"
+    "dotenv": "^16.0.1",
+    "gh-pages": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
   }
 }
