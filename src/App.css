@@ -12,9 +12,11 @@
     background: url("./images/mainBackground.png");
     background-position: center;
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    
     background-attachment: fixed;
     background-size: cover;
-    min-height: fit-content;
+    max-height: fit-content;
     /* padding-top: 5vh; */
 
 }
@@ -31,7 +33,8 @@
 
 @media(max-width: 360px) {
     .leveled {
-        background-size: auto 100%;
+        /* background-size: auto 50%; */
+        background-size:auto pixelated;
     }
 
     .buttonContainer {
