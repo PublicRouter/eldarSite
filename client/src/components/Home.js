@@ -1,17 +1,15 @@
 import React from 'react'
-// import { Button, Card, CardGroup } from 'react-bootstrap'
-// import Navigation from './Navigation.js'
+
 import logo from "../images/logo3.png"
-import twitterLogo from '../images/socialSvgs/twitter.svg'
 import discord from "../images/socialSvgs/discord.svg"
 import email from "../images/socialSvgs/email.svg"
 
 import jamesTeam from '../images/jamesTeam.jpg'
 import whitePaper from '../images/whitePaper.jpg'
-// import volcanoMain from "../images/volcanoMain.png"
+
 export default function Home() {
 
-   // "proxy": "http://localhost:3001/", <-- need to add to package on internet access
+
 
   const teamMemberList = [
     {
@@ -73,12 +71,11 @@ export default function Home() {
         <div class="content-center">
           <div class="text-center p-4 mt-6 ">
             <img className="mb-5 mx-auto sm:h-[23vh] sm:w-[35vw]" src={logo} />
-            {/* <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2> */}
             <a id="about" class="btn bg-orange-700 text-yellow-400 hover:animate-pulse" href="#about">Get Started</a>
           </div>
         </div>
       </header>
-      {/* ABOUT PROJECT */}
+
       <section className="about-section text-center pt-6 min-h-[100vh]" >
         <div className="container px-4 px-lg-5">
           <div className=" justify-content-center">
@@ -86,7 +83,6 @@ export default function Home() {
               <h2 className="mb-4 fst-italic text-orange-500 text-xl font-mainTitleTwo underline">About The Project</h2>
               <p id="about" className="text-yellow-400 mx-auto leading-9 sm:w-[55vw] md:w-[65vw] sm:text-sm md:text-lg">
                 A multi-character NFT and card game project inspired by Middle-Earth/Warcraft "orcs” based on a ranking hierarchy: Overlord, captains, Warchiefs, and Grunts. Eldar is the name of the platform, and we aspire to be a cross-NFT game platform that will be a hub for partnered NFT-project owners to play and communicate in the same game. In doing so we will bring not just value to the XRPL which our game is using, but bringing value to projects that lack the utility and NFT usage function. Instead of being an exclusive NFT game, we aim to be an INCLUSIVE NFT game that brings many together, and makes it fun in the process.
-                {/* <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>  */}
 
               </p>
             </div>
@@ -108,9 +104,7 @@ export default function Home() {
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>April 2022 - Marketing campaign begins, project goes Live to build its community. </em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>May 2022 - Game music and sound effects polished for the game.</em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>June 2022 - Brought in developers to join the project team and work on game MVP for showcase purposes. Meetings with gaming companies for cost proposals to complete the project.</em></li>
-{/* 
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em>Expand development team and onboard new members.</em></li>
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em>Launch social media presence: Twitter, Discord & LinkedIn.</em></li> */}
+
             <li className='font-bold text-lg underline text-green-500 pb-2 italic animate-bounce'>Q3 2022:<em className='text-[rgb(206,158,26)]'></em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-gray-400'><em className='text-[1.5rem] mr-2 text-green-300'>✔</em>July 2022 - Reviewing developer contracts. Updating Roadmap based on developer  Artist timeline. </em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>August 2022 -</em>  Application for Wave 4 of Ripple Grant, and apply for XRPL dev grant. Concept art for all 4 characters completed. Attributes/Traits concepts begin. </em></li>
@@ -143,15 +137,11 @@ export default function Home() {
 
     {teamMemberList.map((member) => (
         <div className='text-yellow-600 text-center text-xs leading-none p-2 items-center justify-items-center bg-stone-900 rounded-lg m-1 h-fit flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[290px]'>
-         
             <img src={member.image} className="h-24 w-18 rounded-full"/>
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
             <h4 className='text-white md:text-[.65em]'>Joined {member.joined}</h4>
             <p className="sm:max-w-[35vw] md:max-w-[18vw] p-2 px-4 md:text-[.55em] lg:text-[.7em]">{member.summary}</p>
-            {/* <img src={twitterLogo} className="mt-2" /> */}
-     
-
         </div>
     ))}
       </div>
@@ -164,25 +154,13 @@ export default function Home() {
                     <div className=" mx-auto text-center">
                         <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
                         <h2 className="text-yellow-400 mb-4 text-xl mx-3">Subscribe for ORX weekly updates!</h2>
-                        {/* <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!--> */}
                         <form className="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            {/* <!-- Email address input--> */}
                             <div className="row input-group-newsletter flex flex-column flex-wrap items-center">
                                 <div className="bg-yellow-500 rounded-lg min-w-[15vw] max-w-[60vw]"><input className="form-control min-w-[40vw] text-center" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
                                 <div className="col-auto"><button className="btn bg-yellow-500 opacity-100 hover:bg-orange-300 text-white disabled mt-3" id="submitButton" type="submit">Notify Me!</button></div>
                             </div>
                             <div className="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
                             <div className="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            {/* <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted--> */}
                             <div className="d-none" id="submitSuccessMessage">
                                 <div className="text-center mb-3 mt-2 text-white">
                                     <div className="fw-bolder">Form submission successful!</div>
@@ -191,10 +169,6 @@ export default function Home() {
                                     <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
-                            {/* <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form--> */}
                             <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
                         </form>
                     </div>
@@ -205,8 +179,6 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="footer text-center mt-8 mx-auto">
         <div className='flex mx-auto justify-center mb-2'>
-          {/* <img src={twitterLogo} className="m-1" />
-          <img src={discordLogo} className="m-1" /> */}
           <a href="mailto:info@eldar-labs.com" target="_blank" className="m-1">
                     <img src={email} className="lg:h-8 lg:w-8" />
           </a>
@@ -214,12 +186,8 @@ export default function Home() {
                     <img src={discord} className="lg:h-8 lg:w-8" />
           </a>
         </div>
-        
-
         <div className="px-4 text-yellow-400">Copyright &copy; Eldar Labs 2022</div>
       </footer>
-
-
     </div>
   )
 }
