@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b579317.css",
-    "main.js": "/static/js/main.1086eea7.js",
-    "static/media/whitePaper.jpg": "/static/media/whitePaper.59737a4f5fb1604539c8.jpg",
-    "static/media/orcLogo.png": "/static/media/orcLogo.bc713e4afb3b87856269.png",
-    "static/media/jamesTeam.jpg": "/static/media/jamesTeam.23df084163a714fe1161.jpg",
-    "static/media/mainBackground.jpg": "/static/media/mainBackground.d0da284444a88dff91e2.jpg",
-    "static/media/logo3.png": "/static/media/logo3.73d091a1603dac5861d8.png",
-    "static/media/discord.svg": "/static/media/discord.92a6fb5b9d41e68b92545e2556d4696b.svg",
-    "static/media/twitter.svg": "/static/media/twitter.c079aa365b7dd221581f3e603b89b4ee.svg",
-    "index.html": "/index.html",
-    "static/media/email.svg": "/static/media/email.73becbebe022794f31737c83d2640b14.svg",
-    "main.9b579317.css.map": "/static/css/main.9b579317.css.map",
-    "main.1086eea7.js.map": "/static/js/main.1086eea7.js.map"
+    "main.css": "/eldarSite/static/css/main.54056883.css",
+    "main.js": "/eldarSite/static/js/main.89070b92.js",
+    "static/media/whitePaper.jpg": "/eldarSite/static/media/whitePaper.59737a4f5fb1604539c8.jpg",
+    "static/media/orcLogo.png": "/eldarSite/static/media/orcLogo.bc713e4afb3b87856269.png",
+    "static/media/jamesTeam.jpg": "/eldarSite/static/media/jamesTeam.23df084163a714fe1161.jpg",
+    "static/media/mainBackground.jpg": "/eldarSite/static/media/mainBackground.d0da284444a88dff91e2.jpg",
+    "static/media/logo3.png": "/eldarSite/static/media/logo3.73d091a1603dac5861d8.png",
+    "static/media/discord.svg": "/eldarSite/static/media/discord.92a6fb5b9d41e68b92545e2556d4696b.svg",
+    "static/media/twitter.svg": "/eldarSite/static/media/twitter.c079aa365b7dd221581f3e603b89b4ee.svg",
+    "index.html": "/eldarSite/index.html",
+    "static/media/email.svg": "/eldarSite/static/media/email.73becbebe022794f31737c83d2640b14.svg",
+    "main.54056883.css.map": "/eldarSite/static/css/main.54056883.css.map",
+    "main.89070b92.js.map": "/eldarSite/static/js/main.89070b92.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b579317.css",
-    "static/js/main.1086eea7.js"
+    "static/css/main.54056883.css",
+    "static/js/main.89070b92.js"
   ]
 }
