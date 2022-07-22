@@ -1,0 +1,105 @@
+{
+    "allOnlineCharacters":[
+        {
+            "walletAddress":"r1",
+            "userName": "Korgak The Berserker",
+            "validatedUser": true,
+            "friendsList": [],
+            "nftList": [
+                {
+                    "nftTokenId": "1",
+                    "xp": "10000"
+                }
+            ],
+            "tokenPool": "0",
+            "hasNode": false
+            
+        },{
+            "walletAddress":"r2",
+            "userName": "Grushnag The Untamed",
+            "validatedUser": true,
+            "friendsList": [],
+            "nftList": [
+                {
+                    "nftTokenId": "2",
+                    "xp": "10000"
+                }
+            ],
+            "tokenPool": "0",
+            "hasNode": false
+            
+        },{
+            "walletAddress":"r3",
+            "userName": "Orok The Dreadful",
+            "validatedUser": true,
+            "friendsList": [],
+            "nftList": [
+                {
+                    "nftTokenId": "3",
+                    "xp": "8000"
+                }
+            ],
+            "tokenPool": "0",
+            "hasNode": false
+            
+        },{
+            "walletAddress":"r4",
+            "userName": "Drutha The Treacherous",
+            "validatedUser": true,
+            "friendsList": [],
+            "nftList": [
+                {
+                    "nftTokenId": "4",
+                    "xp": "8000"
+                }
+            ],
+            "tokenPool": "0",
+            "hasNode": false
+            
+        },{
+            "walletAddress":"r5",
+            "userName": "Shagol The Crusher",
+            "validatedUser": true,
+            "friendsList": [],
+            "nftList": [
+                {
+                    "nftTokenId": "5",
+                    "xp": "6000"
+                }
+            ],
+            "tokenPool": "0",
+            "hasNode": false
+            
+        },{
+            "walletAddress":"r6",
+            "userName": "Grog The Wise",
+            "validatedUser": true,
+            "friendsList": [],
+            "nftList": [
+                {
+                    "nftTokenId": "6",
+                    "xp": "6000"
+                }
+            ],
+            "tokenPool": "0",
+            "hasNode": false
+            
+        },{
+            "walletAddress":"r7",
+            "userName": "Originator",
+            "validatedUser": true,
+            "friendsList": [],
+            "nftList": [
+                {
+                    "nftTokenId": "7",
+                    "xp": "5000"
+                }
+            ],
+            "tokenPool": "0",
+            "hasNode": false
+            
+        }
+        
+    ]
+    
+}
