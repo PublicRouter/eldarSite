@@ -9,7 +9,7 @@
 @tailwind utilities;
 
 .leveled {
-    background:  url("./images/mainBackground.png");
+    background: url("./images/mainBackground.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,6 +30,10 @@
 }
 
 @media(max-width: 360px) {
+    .leveled {
+        background-size:contain;
+    }
+
     .buttonContainer {
         flex-wrap: wrap;
         justify-content:center;
