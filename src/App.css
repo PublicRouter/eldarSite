@@ -8,16 +8,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.leveled {
-    background: url("./images/mainBackground.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    
-    background-attachment:fixed;
+.leveled:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(./images/mainBackground.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    min-height: 100%;
-    /* padding-top: 5vh; */
+
 
 }
 
