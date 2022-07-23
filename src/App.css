@@ -14,9 +14,9 @@
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-size: cover;
-    max-height: 2300vh;
+    min-height: 100%;
     /* padding-top: 5vh; */
 
 }
@@ -34,8 +34,7 @@
 @media(max-width: 360px) {
     .leveled {
         /* background-size: auto 50%; */
-        position: absolute;
-        top: 0px;
+       background-size:auto 100%;
         
     }
 

@@ -67,7 +67,7 @@ export default function Home() {
 
   return (
     <div className='flex flex-column py-5'>
-      <header className="masthead h-[100vh] pt-[25vh] sm:pt-[20vh]">
+      <header className="masthead h-[100vh] pt-[20vh]">
         <div className="content-center">
           <div className="text-center p-4 mt-6 ">
             <img className="mb-5 mx-auto sm:h-[23vh] sm:w-[35vw]" src={logo} />
