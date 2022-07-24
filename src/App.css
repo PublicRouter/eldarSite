@@ -26,9 +26,28 @@
 
 }
 
-/* .navi-link {
+@media(min-width: 640px) {
+    .buttonContainer {
+        /* min-width: fit-content; */
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-around;
+        min-height: 35vh;
+    }
+}
 
-}  */
+
+.navi-link {
+    
+} 
+
+.navButtonA {
+    
+}
+
+
 
 /* @media(min-width: 500px) {
     .leveled {
@@ -39,7 +58,7 @@
 @media(max-width: 360px) {
     .leveled {
         /* background-size: auto 50%; */
-       background-size:auto 100%;
+       background-size:cover;
         
     }
 
@@ -49,10 +68,5 @@
 
     }
 
-    .navi-link a {
-     min-width: 65px;   
-     padding: 6px;
-     margin: 5px;
-    }
 }
 

@@ -30,22 +30,16 @@ export default function Navigation() {
             
         </header>
   
-        <ul className='buttonContainer flex font-titleSub sm:justify-self-start p-1 mb-1 sm:justify-around rounded-lg text-[.6em] text-white sm:block sm:mt-[20vh] sm:ml-3 '>
-            <li className="navi-link ">
-                <a type="button" href="#" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 backdrop-blur rounded-lg min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2">Home</a>
-            </li>
-            <li className='navi-link'>
-                <a type="button" href="#about" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2">About</a>
-            </li>
-            <li className='navi-link'>
-                <a type="button" href="#first-item" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2">Roadmap</a>
-            </li>
-            <li className='navi-link'>
-                <a type="button" href="#whitePaperTop" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2">Whitepaper</a>
-            </li>
-            <li className='navi-link'>
-                <a type="button" href="#teamTop" className="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur min-w-[13vw] sm:min-w-[14vw] max-w-[100px] py-2.5 text-center mr-2 mb-2">Team</a>
-            </li>
+        <ul className='buttonContainer flex font-titleSub p-1 mb-1  rounded-lg text-[.6em] text-white sm:relative sm:mt-[18vh] sm:min-w-[16vw] sm:ml-3 '>
+                <a href="#" className="navButtonA text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 backdrop-blur rounded-lg px-2 py-2.5 text-center mr-2 mb-2 p-2">Home</a>
+          
+                <a href= "#about" className="navButtonA  text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur px-2 py-2.5 text-center mr-2 mb-2 p-2">About</a>
+          
+                <a href="#first-item" className="navButtonA  text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur px-2 py-2.5 text-center mr-2 mb-2 p-2">Roadmap</a>
+          
+            
+                <a href="#whitePaperTop" className="navButtonA  text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur px-2 py-2.5 text-center mr-2 mb-2 p-2">Whitepaper</a>
+                <a href="#teamTop" className="navButtonA  text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur px-2 py-2.5 text-center mr-2 mb-2 p-2">Team</a>
            
         </ul>
     </div>

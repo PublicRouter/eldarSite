@@ -67,7 +67,7 @@ export default function Home() {
 
   return (
     <div className='flex flex-column py-5'>
-      <header className="masthead h-[100vh] pt-[20vh]">
+      <header className="masthead h-[100vh] pt-[24vh]">
         <div className="content-center">
           <div className="text-center p-4 mt-6 ">
             <img className="mb-5 mx-auto sm:h-[23vh] sm:w-[35vw]" src={logo} />
@@ -79,7 +79,7 @@ export default function Home() {
       <section className="about-section text-center pt-6 min-h-[100vh]" >
         <div className="container px-4 px-lg-5">
           <div className=" justify-content-center">
-            <div className="">
+            <div className="sm:ml-6">
               <h2 className="mb-4 fst-italic text-orange-500 text-xl font-mainTitleTwo underline">About The Project</h2>
               <p id="about" className="text-yellow-400 mx-auto leading-9 sm:w-[55vw] md:w-[65vw] sm:text-sm md:text-lg">
                 A multi-character NFT and card game project inspired by Middle-Earth/Warcraft "orcs” based on a ranking hierarchy: Overlord, captains, Warchiefs, and Grunts. Eldar is the name of the platform, and we aspire to be a cross-NFT game platform that will be a hub for partnered NFT-project owners to play and communicate in the same game. In doing so we will bring not just value to the XRPL which our game is using, but bringing value to projects that lack the utility and NFT usage function. Instead of being an exclusive NFT game, we aim to be an INCLUSIVE NFT game that brings many together, and makes it fun in the process.
@@ -133,7 +133,7 @@ export default function Home() {
       </div>
       {/* TEAM MEMBERS */}
     
-      <div className=' min-h-[50vh] sm:min-h-[80vh] mx-auto sm:mx-[10vw] flex-wrap bg-transparent opacity-90 rounded-lg flex justify-center align-items-center w-[75vw] p-2' id="teamTop">
+      <div className=' min-h-[60vh] sm:min-h-[80vh] mx-auto flex-wrap bg-transparent opacity-90 rounded-lg flex justify-center align-items-center w-[75vw] p-2' id="teamTop">
 
     {teamMemberList.map((member) => (
         <div key={member.id} className='text-yellow-600 text-center text-xs leading-none p-2 items-center justify-items-center bg-stone-900 rounded-lg m-1 h-fit flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[290px]'>
@@ -141,7 +141,7 @@ export default function Home() {
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
             <h4 className='text-white md:text-[.65em]'>Joined {member.joined}</h4>
-            <p className="sm:max-w-[35vw] md:max-w-[18vw] p-2 px-4 md:text-[.55em] lg:text-[.7em]">{member.summary}</p>
+            <p className="sm:max-w-[35vw] md:max-w-[18vw] p-2 px-3 md:text-[.55em] lg:text-[.7em]">{member.summary}</p>
         </div>
     ))}
       </div>
