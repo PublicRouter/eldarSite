@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eldarSite/static/css/main.5145f6db.css",
+    "main.css": "/eldarSite/static/css/main.dfd276ec.css",
     "main.js": "/eldarSite/static/js/main.5c71b6ad.js",
     "static/media/mainBackground.png": "/eldarSite/static/media/mainBackground.e4cc93d33dbb119c0174.png",
     "static/media/whitePaper.jpg": "/eldarSite/static/media/whitePaper.59737a4f5fb1604539c8.jpg",
@@ -11,11 +11,11 @@
     "static/media/twitter.svg": "/eldarSite/static/media/twitter.c079aa365b7dd221581f3e603b89b4ee.svg",
     "index.html": "/eldarSite/index.html",
     "static/media/email.svg": "/eldarSite/static/media/email.73becbebe022794f31737c83d2640b14.svg",
-    "main.5145f6db.css.map": "/eldarSite/static/css/main.5145f6db.css.map",
+    "main.dfd276ec.css.map": "/eldarSite/static/css/main.dfd276ec.css.map",
     "main.5c71b6ad.js.map": "/eldarSite/static/js/main.5c71b6ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.5145f6db.css",
+    "static/css/main.dfd276ec.css",
     "static/js/main.5c71b6ad.js"
   ]
 }
