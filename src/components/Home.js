@@ -32,7 +32,9 @@ export default function Home() {
       name: 'Daniel',
       position: 'Full-Stack Web Dev',
       joined: "June 22'",
-      summary: "Daniel has been involved in Backend Web development for a long while and loves looking at code. He isn't the best when it comes to visualizing graphics and designs but he can get around a block of code. His familiarity with NFT's grew as he got engrossed on the project, formerly he would be used to building and managing API’s while also tutoring classes on Web development. Daniel has been working on Orx since July 2022."
+      summary: "Daniel has been involved in Backend Web development for a long while and loves looking at code. He isn't the best when it comes to visualizing graphics and designs but he can get around a block of code. His familiarity with NFT's grew as he got engrossed on the project, formerly he would be used to building and managing API’s while also tutoring classes on Web development. Daniel has been working on Orx since July 2022.",
+      socialLink: "https://github.com/Daniel-for-j",
+      socialImage: jamesSocialIcon
     },
     {
       id: 3,
@@ -91,8 +93,8 @@ export default function Home() {
           <div className=" justify-content-center">
             <div className="sm:ml-6 pt-[18vh]"  id="about">
               <h2 className="mb-4 fst-italic text-orange-500 text-xl font-mainTitleTwo underline">About The Project</h2>
-              <p className="text-yellow-400 mx-auto leading-9 sm:w-[55vw] md:w-[65vw] sm:text-sm md:text-lg">
-                A multi-character NFT and card game project inspired by Middle-Earth/Warcraft "orcs” based on a ranking hierarchy: Overlord, captains, Warchiefs, and Grunts. Eldar is the name of the platform, and we aspire to be a cross-NFT game platform that will be a hub for partnered NFT-project owners to play and communicate in the same game. In doing so we will bring not just value to the XRPL which our game is using, but bringing value to projects that lack the utility and NFT usage function. Instead of being an exclusive NFT game, we aim to be an INCLUSIVE NFT game that brings many together, and makes it fun in the process.
+              <p className="text-white bg-[rgb(48,17,12,.55)] p-4 rounded-lg mx-auto leading-9 sm:w-[55vw] md:w-[65vw] lg:w-[50vw] sm:text-sm md:text-[1em]">
+                A multi-character NFT and card game project inspired by Middle-Earth/Warcraft "orcs” based on a ranking hierarchy: Overlord, Captains, Warchiefs, and Grunts. Eldar is the name of the platform, and we aspire to be a cross-NFT game platform that will be a hub for partnered NFT-project owners to play and communicate in the same game. In doing so we will bring not just value to the XRPL which our game is using, but bringing value to projects that lack the utility and NFT usage function. Instead of being an exclusive NFT game, we aim to be an INCLUSIVE NFT game that brings many together, and makes it fun in the process.
 
               </p>
             </div>
@@ -102,7 +104,7 @@ export default function Home() {
       {/* ROAD MAP */}
       <div className='text-xl text-white min-h-[100vh] sm:max-w-[75vw] sm:pl-8 sm:mx-auto mt-6 pt-[16vh]'  id="first-item">
         <h2 className='text-center text-orange-500 text-2xl font-mainTitleTwo underline'>Road Map</h2>
-        <ul className='mx-[4vw] mt-3 text-[1rem] p-4 lg:w-[65vw] font-titleSub rounded-lg backdrop-blur-sm bg-stone-900 opacity-80'>
+        <ul className='mx-[4vw] mt-3 text-[1rem] p-4 lg:w-[65vw] font-titleSub rounded-lg backdrop-blur-sm bg-[rgb(58,17,12,.55)] opacity-80'>
             <li className='font-bold text-lg underline text-green-300 pb-2 italic'>Q3 2021: <em className='text-[rgb(206,158,26)]'></em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>October 2021 - Orx Army Game and Concept Begin</em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>November 2021 - Concept Artist added to team</em></li>
@@ -143,15 +145,15 @@ export default function Home() {
       </div>
       {/* TEAM MEMBERS */}
     
-      <div className='teamContainer min-h-[60vh] sm:min-h-[80vh] px-4 pb-4 mx-auto flex justify-center align-items-center flex-wrap bg-transparent opacity-80 rounded-lg w-[85vw] sm:w-[60vw] md:w-[70vw] lg:w-[75vw] pt-[16vh]' id="teamTop">
+      <div className='teamContainer min-h-[60vh] sm:min-h-[80vh] px-4 pb-4 mx-auto flex justify-center align-items-center flex-wrap bg-transparent opacity-80 rounded-lg w-[85vw] sm:w-[60vw] md:w-[85vw] lg:w-[75vw] lg:ml-6 pt-[16vh]' id="teamTop">
 
     {teamMemberList.map((member) => (
-        <div key={member.id} className='teamCard text-yellow-600 text-center text-sm leading-none px-3 py-3 items-center bg-stone-900 rounded-lg m-1 h-fit flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[330px] md:max-h-[330px] lg:min-h-[345px] lg:max-w-[20vw]'>
+        <div key={member.id} className='teamCard text-yellow-400 text-center text-sm leading-tight px-3 py-3 items-center bg-[rgb(58,17,12,.55)] opacity-90 rounded-lg m-1 flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[350px] md:max-h-[350px] md:max-w-[26vw] lg:min-h-[410px] lg:max-h-[415px] lg:max-w-[21vw] lg:text-md'>
             <img src={member.image} className="h-24 w-18 rounded-full"/>
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
             <h4 className='text-white md:text-[.65em]'>Joined {member.joined}</h4>
-            <p className="sm:max-w-[35vw] md:max-w-[19vw] lg:max-w-[17vw] py-2 px-2 md:text-[.6em] lg:text-[.7em]">{member.summary}</p>
+            <p className="py-2 px-2 md:text-[.6em] lg:text-[.78em] lg:py-0">{member.summary}</p>
             {member.socialImage?  
               (
                 <a href={member.socialLink} target="_blank" className='h-6 w-6 rounded-lg hover:p-[1px]'>
@@ -198,15 +200,7 @@ export default function Home() {
       </section> */}
       {/* FOOTER */}
       <footer className="footer text-center mt-8 mx-auto">
-        {/* <div className='flex mx-auto justify-center mb-2'>
-          <a href="mailto:info@eldar-labs.com" target="_blank" className="m-1">
-                    <img src={email} className="lg:h-8 lg:w-8" />
-          </a>
-          <a href="https://discord.com/invite/ZFAmG2YG7T" target="_blank" className="m-1">
-                    <img src={discord} className="lg:h-8 lg:w-8" />
-          </a>
-        </div> */}
-        <div className="px-4 text-yellow-400 bg-orange-600 rounded-lg py-1">Copyright &copy; Eldar Labs 2022</div>
+        <div className="px-4 text-white bg-[rgb(249,115,22,.5)] rounded-lg py-1">Copyright &copy; Eldar Labs 2022</div>
       </footer>
     </div>
   )

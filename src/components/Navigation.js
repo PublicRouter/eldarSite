@@ -15,13 +15,13 @@ export default function Navigation() {
             <img src={orcLogo} href='#nav' className='hidden sm:block h-36 w-36 fixed left-28 justify-center align-center sm:left-[2vw] '/>
             <ul className='text-xs p-2 flex space-around fixed right-1 md:right-5 md:top-3 lg:right-10 lg:top-5' >
                 <a href="https://twitter.com/Orx_Army" target="_blank" className="m-1">
-                    <img src={twitterIcon} className="lg:h-8 lg:w-8 hover:animate-spin-slow"/>
+                    <img src={twitterIcon} className="lg:h-8 lg:w-8 hover:animate-bounce-slow"/>
                 </a>
                 <a href="https://discord.com/invite/ZFAmG2YG7T" target="_blank" className="m-1">
-                    <img src={discord} className="lg:h-8 lg:w-8 hover:animate-spin-slow" />
+                    <img src={discord} className="lg:h-8 lg:w-8 hover:animate-bounce-slow" />
                 </a>
                 <a href="mailto:info@eldar-labs.com" target="_blank" className="m-1">
-                    <img src={email} className="lg:h-8 lg:w-8 hover:animate-spin-slow" />
+                    <img src={email} className="lg:h-8 lg:w-8 hover:animate-bounce-slow" />
                 </a>
             </ul>
         </div>
