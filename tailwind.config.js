@@ -11,7 +11,13 @@ module.exports = {
         DancingScript: ["La Belle Aurore", "cursive"],
         mainTitle: ["Kanit", "sans-serif"],
         titleSub: ["Roboto Slab", "serif"],
-        mainTitleTwo: ['Fredoka One', 'cursive']
+        mainTitleTwo: ['Fredoka One', 'cursive'],
+        comforta: ['Comfortaa', 'cursive'],
+        squigly: ['Qwigley', 'cursive'],
+        permanentMarker: ['Permanent Marker', 'cursive']
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite'
       }
     },
   },

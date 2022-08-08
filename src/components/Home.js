@@ -3,10 +3,14 @@ import React from 'react'
 import logo from "../images/logo3.png"
 import discord from "../images/socialSvgs/discord.svg"
 import email from "../images/socialSvgs/email.svg"
+import whitePaperPdf from "../images/pdfs/whitePaperPdf.pdf"
 
 import jamesTeam from '../images/jamesTeam.jpg'
 import whitePaper from '../images/whitePaper.jpg'
 
+import emmanualSocialIcon from "../images/socialSvgs/artstation.png"
+import brandonSocialIcon from "../images/socialSvgs/instagram.svg"
+import jamesSocialIcon from "../images/socialSvgs/github.svg"
 export default function Home() {
 
 
@@ -18,7 +22,9 @@ export default function Home() {
       name: 'James',
       position: 'Full-Stack Web Dev',
       joined: "June 22'",
-      summary: "James has been involved in web development for the last year, and graduated from UT Austin full-stack coding bootcamp in January 2022. He initially became involved in blockchain back in 2014 when he would trade ether and bitcoin through local online poker games. After diving deeper into the technology many years later, he found the XRPL’s distributed systems and consensus algorithm from David Schwartz and understood the doorways this underlying digital transactions infrastructure could open."
+      summary: "James has been involved in web development for just under a year, and graduated from UT Austin full-stack coding bootcamp in January 2022. Introduced to blockchain tech in 2015 when he would use ether as settlement for local Texas Hold'em games with friends. After diving deeper into the technology many years later, he found the XRPL’s distributed systems and consensus algorithm from David Schwartz and understood the doorways this underlying digital transactions infrastructure could open.",
+      socialLink: "https://github.com/PublicRouter",
+      socialImage: jamesSocialIcon
     },
     {
       id: 2,
@@ -49,7 +55,9 @@ export default function Home() {
       name: 'Emannuel',
       position: 'Character Artist',
       joined: "May 22'",
-      summary: "Emmanuel  has been involved in the digital art space since 2018 and has since then worked on hundreds of illustrations as a freelance artist for a wide range of different clients and companies. He has recently been following the NFT space seeing how it has grown tremendously over the past few years. Being passionate about adding a new level of quality into NFT art, and showcasing what we are capable of with the Eldar Labs project."
+      summary: "Emmanuel  has been involved in the digital art space since 2018 and has since then worked on hundreds of illustrations as a freelance artist for a wide range of different clients and companies. He has recently been following the NFT space seeing how it has grown tremendously over the past few years. Being passionate about adding a new level of quality into NFT art, and showcasing what we are capable of with the Eldar Labs project.",
+      socialLink: "https://www.artstation.com/puffet69",
+      socialImage: emmanualSocialIcon
     },
     {
       id: 6,
@@ -57,7 +65,9 @@ export default function Home() {
       name: 'Brandon',
       position: 'Concept Artist',
       joined: "December 21'",
-      summary: "Brandon has been involved in the digital art space for several years now and is very passionate about his artwork and creating something unique. He has also recently become interested in the “world” of NFTs. Seeing how the space has slowly been lacking originality in how NFT art is being created, he has had the desire to create something fresh and brand new. Brandon has been working on Orx since November 2021 as a lead artist to really create something unique and immersive."
+      summary: "Brandon has been involved in the digital art space for several years now and is very passionate about his artwork and creating something unique. He has also recently become interested in the “world” of NFTs. Seeing how the space has slowly been lacking originality in how NFT art is being created, he has had the desire to create something fresh and brand new. Brandon has been working on Orx since November 2021 as a lead artist to really create something unique and immersive.",
+      socialLink: "https://www.instagram.com/aarcane.arts/",
+      socialImage: brandonSocialIcon
     }
   ]
 
@@ -67,11 +77,11 @@ export default function Home() {
 
   return (
     <div className='flex flex-column py-5'>
-      <header className="masthead h-[100vh] pt-[24vh]">
+      <header className="masthead h-[100vh] pt-[5vh]">
         <div className="content-center">
-          <div className="text-center p-4 mt-6 ">
-            <img className="mb-5 mx-auto sm:h-[23vh] sm:w-[35vw]" src={logo} />
-            <a id="about" className="btn bg-orange-700 text-yellow-400 hover:animate-pulse" href="#about">Get Started</a>
+          <div className="text-center px-4 pt-[27vh]">
+            <img className="mb-5 h-[16vh] mx-auto sm:h-[23vh] sm:w-[35vw] animate-[pulse_3s_ease-in-out_infinite]" src={logo} />
+            {/* <a id="about" className="btn bg-orange-700 text-yellow-400 hover:animate-pulse" href="#about">Get Started</a> */}
           </div>
         </div>
       </header>
@@ -79,9 +89,9 @@ export default function Home() {
       <section className="about-section text-center pt-6 min-h-[100vh]" >
         <div className="container px-4 px-lg-5">
           <div className=" justify-content-center">
-            <div className="sm:ml-6">
+            <div className="sm:ml-6 pt-[18vh]"  id="about">
               <h2 className="mb-4 fst-italic text-orange-500 text-xl font-mainTitleTwo underline">About The Project</h2>
-              <p id="about" className="text-yellow-400 mx-auto leading-9 sm:w-[55vw] md:w-[65vw] sm:text-sm md:text-lg">
+              <p className="text-yellow-400 mx-auto leading-9 sm:w-[55vw] md:w-[65vw] sm:text-sm md:text-lg">
                 A multi-character NFT and card game project inspired by Middle-Earth/Warcraft "orcs” based on a ranking hierarchy: Overlord, captains, Warchiefs, and Grunts. Eldar is the name of the platform, and we aspire to be a cross-NFT game platform that will be a hub for partnered NFT-project owners to play and communicate in the same game. In doing so we will bring not just value to the XRPL which our game is using, but bringing value to projects that lack the utility and NFT usage function. Instead of being an exclusive NFT game, we aim to be an INCLUSIVE NFT game that brings many together, and makes it fun in the process.
 
               </p>
@@ -90,10 +100,10 @@ export default function Home() {
         </div>
       </section>
       {/* ROAD MAP */}
-      <div className='text-xl text-white min-h-[100vh] sm:max-w-[75vw] sm:pl-8 sm:mx-auto mt-6'>
+      <div className='text-xl text-white min-h-[100vh] sm:max-w-[75vw] sm:pl-8 sm:mx-auto mt-6 pt-[16vh]'  id="first-item">
         <h2 className='text-center text-orange-500 text-2xl font-mainTitleTwo underline'>Road Map</h2>
-        <ul className='mx-[4vw] mt-3 text-[1rem] p-4 lg:w-[65vw] font-titleSub rounded-lg border-2 border-inner border-orange-300 backdrop-blur-sm bg-slate-900 bg-blend-normal'>
-            <li className='font-bold text-lg underline text-green-300 pb-2 italic' id="first-item">Q3 2021: <em className='text-[rgb(206,158,26)]'></em></li>
+        <ul className='mx-[4vw] mt-3 text-[1rem] p-4 lg:w-[65vw] font-titleSub rounded-lg backdrop-blur-sm bg-stone-900 opacity-80'>
+            <li className='font-bold text-lg underline text-green-300 pb-2 italic'>Q3 2021: <em className='text-[rgb(206,158,26)]'></em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>October 2021 - Orx Army Game and Concept Begin</em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>November 2021 - Concept Artist added to team</em></li>
             <li className='font-bold text-lg underline text-green-300 pb-2 italic'>Q1 2022: <em className='text-[rgb(206,158,26)]'></em></li>
@@ -125,30 +135,40 @@ export default function Home() {
 
       </div>
       {/* WHITE PAPER */}
-      <div className='min-h-[120vh] w-[80vw] my-[5vh] rounded-xl mx-auto opacity-90 mt-[25vh] sm:mt-[33vh]' id="whitePaperTop">
+      <div className='min-h-[100vh] w-[80vw] my-[5vh] rounded-xl mx-auto opacity-90 mt-[25vh] sm:mt-[33vh] pt-[16vh]' id="whitePaperTop">
         <h2 className='text-center text-orange-500 font-mainTitleTwo underline text-xl pt-8' id="white">White Paper</h2>
-        <section className='p-2 mt-3'>
+        <a href={whitePaperPdf} target="_blank" className='p-2 mt-3'>
             <img src={whitePaper} className="w-[50-vw] h-[50vh] mx-auto z-30 hover:border-2" />
-        </section>
+        </a>
       </div>
       {/* TEAM MEMBERS */}
     
-      <div className=' min-h-[60vh] sm:min-h-[80vh] mx-auto flex-wrap bg-transparent opacity-90 rounded-lg flex justify-center align-items-center w-[75vw] p-2' id="teamTop">
+      <div className='teamContainer min-h-[60vh] sm:min-h-[80vh] px-4 pb-4 mx-auto flex justify-center align-items-center flex-wrap bg-transparent opacity-80 rounded-lg w-[85vw] sm:w-[60vw] md:w-[70vw] lg:w-[75vw] pt-[16vh]' id="teamTop">
 
     {teamMemberList.map((member) => (
-        <div key={member.id} className='text-yellow-600 text-center text-xs leading-none p-2 items-center justify-items-center bg-stone-900 rounded-lg m-1 h-fit flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[290px]'>
+        <div key={member.id} className='teamCard text-yellow-600 text-center text-sm leading-none px-3 py-3 items-center bg-stone-900 rounded-lg m-1 h-fit flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[330px] md:max-h-[330px] lg:min-h-[345px] lg:max-w-[20vw]'>
             <img src={member.image} className="h-24 w-18 rounded-full"/>
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
             <h4 className='text-white md:text-[.65em]'>Joined {member.joined}</h4>
-            <p className="sm:max-w-[35vw] md:max-w-[18vw] p-2 px-3 md:text-[.55em] lg:text-[.7em]">{member.summary}</p>
+            <p className="sm:max-w-[35vw] md:max-w-[19vw] lg:max-w-[17vw] py-2 px-2 md:text-[.6em] lg:text-[.7em]">{member.summary}</p>
+            {member.socialImage?  
+              (
+                <a href={member.socialLink} target="_blank" className='h-6 w-6 rounded-lg hover:p-[1px]'>
+                  <img src={member.socialImage}></img>
+                </a>
+                
+                 
+               
+              ) : <h1></h1>
+            }
         </div>
     ))}
       </div>
    
     
       {/* EMAIL SUBSCRIBE */}
-      <section className="signup-section min-h-[40vh] w-[70vw] md:w-[50vw] mx-auto rounded-lg align-items-center flex flex-wrap bg-transparent opacity-90 my-5 " id="signup">
+      {/* <section className="signup-section min-h-[40vh] w-[70vw] md:w-[50vw] mx-auto rounded-lg align-items-center flex flex-wrap bg-transparent opacity-90 my-5 " id="signup">
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5">
                     <div className=" mx-auto text-center">
@@ -175,18 +195,18 @@ export default function Home() {
                 </div>
             </div>
             
-      </section>
+      </section> */}
       {/* FOOTER */}
       <footer className="footer text-center mt-8 mx-auto">
-        <div className='flex mx-auto justify-center mb-2'>
+        {/* <div className='flex mx-auto justify-center mb-2'>
           <a href="mailto:info@eldar-labs.com" target="_blank" className="m-1">
                     <img src={email} className="lg:h-8 lg:w-8" />
           </a>
           <a href="https://discord.com/invite/ZFAmG2YG7T" target="_blank" className="m-1">
                     <img src={discord} className="lg:h-8 lg:w-8" />
           </a>
-        </div>
-        <div className="px-4 text-yellow-400">Copyright &copy; Eldar Labs 2022</div>
+        </div> */}
+        <div className="px-4 text-yellow-400 bg-orange-600 rounded-lg py-1">Copyright &copy; Eldar Labs 2022</div>
       </footer>
     </div>
   )
