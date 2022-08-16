@@ -29,6 +29,13 @@
 
 }
 
+.bgMain {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 @media(min-width: 640px) {
     .buttonContainer {
         /* min-width: fit-content; */
