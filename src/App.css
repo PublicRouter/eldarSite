@@ -11,7 +11,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.leveled:before {
+/* .leveled:before {
     content: "";
     display: block;
     position: fixed;
@@ -20,21 +20,19 @@
     width: 100%;
     height: 100%;
     z-index: -10;
-    background: url(./images/mainBg.mkv) no-repeat center center;
+    background: url(./images/mainBg.mp4) no-repeat center center;
+} */
+
+/* #BgVideo:before {
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
+    display: block;
+} */
 
-
-}
-
-.bgMain {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 @media(min-width: 640px) {
     .buttonContainer {
@@ -42,8 +40,8 @@
         text-decoration: none;
         display: flex;
         flex-direction: column;
-        align-content: space-around;
-        justify-content: space-around;
+        align-content: center;
+        justify-content: center;
         min-height: 35vh;
     }
 }
@@ -67,9 +65,7 @@
 
 @media(max-width: 360px) {
     .leveled {
-        /* background-size: auto 50%; */
        background-size:cover;
-        
     }
 
     .buttonContainer {

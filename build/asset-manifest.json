@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/eldarSite/static/css/main.ec4b2072.css",
-    "main.js": "/eldarSite/static/js/main.81762fba.js",
-    "static/media/mainBg.mkv": "/eldarSite/static/media/mainBg.be2e4507d3d4b3ab2fbe.mkv",
+    "main.css": "/eldarSite/static/css/main.43e5b860.css",
+    "main.js": "/eldarSite/static/js/main.6a28fdfa.js",
+    "static/media/mainBg.mp4": "/eldarSite/static/media/mainBg.85a8679c9e3afe89371b.mp4",
+    "static/media/mainBackground.png": "/eldarSite/static/media/mainBackground.e4cc93d33dbb119c0174.png",
     "static/media/whitePaper.jpg": "/eldarSite/static/media/whitePaper.59737a4f5fb1604539c8.jpg",
     "static/media/orcLogo.png": "/eldarSite/static/media/orcLogo.bc713e4afb3b87856269.png",
     "static/media/jamesTeam.jpg": "/eldarSite/static/media/jamesTeam.23df084163a714fe1161.jpg",
@@ -14,11 +15,11 @@
     "static/media/twitter.svg": "/eldarSite/static/media/twitter.c079aa365b7dd221581f3e603b89b4ee.svg",
     "index.html": "/eldarSite/index.html",
     "static/media/email.svg": "/eldarSite/static/media/email.73becbebe022794f31737c83d2640b14.svg",
-    "main.ec4b2072.css.map": "/eldarSite/static/css/main.ec4b2072.css.map",
-    "main.81762fba.js.map": "/eldarSite/static/js/main.81762fba.js.map"
+    "main.43e5b860.css.map": "/eldarSite/static/css/main.43e5b860.css.map",
+    "main.6a28fdfa.js.map": "/eldarSite/static/js/main.6a28fdfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec4b2072.css",
-    "static/js/main.81762fba.js"
+    "static/css/main.43e5b860.css",
+    "static/js/main.6a28fdfa.js"
   ]
 }

@@ -1,18 +1,18 @@
 
 import './App.css';
-import videoBg from "./images/mainBg.mkv"
+import videoBg from "./images/mainBg.mp4"
+import imageBg from "./images/mainBackground.png"
 
 import Home from './components/Home';
 import Navigation from "./components/Navigation"
 
 
 function App() {
-  
 
   return (
-    <div className=''>
-      <video src={videoBg} muted autoPlay loop className='bgMain fixed top-0 left-0 w-full h-[100vh] object-cover z-[-10]'>
-        {/* <source src="https://drive.google.com/file/d/114zQVHdvHKnK_1NJEf1ddlH4_rShxH6z/view?usp=sharing" /> */}
+    <div className='h-[110vh] w-full'>
+      <video playsInline={true} muted={true} autoPlay={true} loop={true} poster={imageBg} className="fixed top-0 left-0 w-full h-[100vh] w-full object-cover z-[-10]" id="BgVideo">
+        <source src={videoBg} type="video/mp4"/>
       </video>
       <Navigation />
       <Home />

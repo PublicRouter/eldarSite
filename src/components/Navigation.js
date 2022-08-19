@@ -31,7 +31,7 @@ export default function Navigation() {
             
         </header>
   
-        <ul className='buttonContainer flex fixed top-20 font-titleSub p-1 mb-1 rounded-lg text-[.6em] text-white sm:fixed sm:top-20 sm:mt-[18vh] sm:min-w-[15vw] sm:ml-3'>
+        <ul className='buttonContainer flex fixed top-20 font-titleSub p-1 mb-1 rounded-lg text-[.6em] md:text-[.75em] lg:text-[.9em] text-white sm:fixed sm:top-20 sm:mt-[18vh] sm:min-w-[15vw] sm:ml-3'>
                 <a href="#" className="navButtonA text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 backdrop-blur rounded-lg px-2 py-2.5 text-center mr-2 mb-2 p-2">Home</a>
           
                 <a href= "#about" className="navButtonA text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 rounded-lg backdrop-blur px-2 py-2.5 text-center mr-2 mb-2 p-2">About</a>
