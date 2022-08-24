@@ -70,7 +70,16 @@ export default function Home() {
       summary: "Brandon has been involved in the digital art space for several years now and is very passionate about his artwork and creating something unique. He has also recently become interested in the “world” of NFTs. Seeing how the space has slowly been lacking originality in how NFT art is being created, he has had the desire to create something fresh and brand new. Brandon has been working on Orx since November 2021 as a lead artist to really create something unique and immersive.",
       socialLink: "https://www.instagram.com/aarcane.arts/",
       socialImage: brandonSocialIcon
-    }
+    },
+    {
+      id: 7,
+      image: jamesTeam,
+      name: 'Max',
+      position: 'Unity Dev',
+      joined: "August 22'",
+      summary: "Max is a programmer who is currently using the Unity game engine to bring ORX to life. Though recently to his craft, he is familiar with c#, Javascript, and gdscript (python-like language for the Godot game engine), and is passionate about his work in game dev. He is out to make something unique and original; to leave his own mark in the gaming industry. He is fond of rts, survival games, and pretty much anything else that is well made"
+    },
+
   ]
 
   
@@ -118,7 +127,7 @@ export default function Home() {
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>June 2022 - Brought in developers to join the project team and work on game MVP for showcase purposes. Meetings with gaming companies for cost proposals to complete the project.</em></li>
 
             <li className='font-bold text-lg underline text-green-500 pb-2 italic animate-bounce'>Q3 2022:<em className='text-[rgb(206,158,26)]'></em></li>
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-gray-400'><em className='text-[1.5rem] mr-2 text-green-300'>✔</em>July 2022 - Reviewing developer contracts. Updating Roadmap based on developer  Artist timeline. </em></li>
+            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-gray-400'><em className='text-[1.5rem] mr-2 text-green-300'>✔</em>July 2022 - Reviewing developer contracts. Updating Roadmap based on developer and artist timelines. </em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>August 2022 -</em>  Application for Wave 4 of Ripple Grant, and apply for XRPL dev grant. Concept art for all 4 characters completed. Attributes/Traits concepts begin. </em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>September 2022 -</em> 4 Base Characters completed. Discord Community Engagement and Growth. Onboard moderators and any additional admin needed to continue oversight of social communications.  </em></li>
 
@@ -200,7 +209,7 @@ export default function Home() {
       </section> */}
       {/* FOOTER */}
       <footer className="footer text-center mt-8 mx-auto">
-        <div className="px-4 text-white bg-[rgb(249,115,22,.5)] rounded-lg py-1">Copyright &copy; Eldar Labs 2022</div>
+        <div className="px-4 text-white bg-[rgb(51,30,27,.75)] rounded-lg py-1">Copyright &copy; Eldar Labs 2022</div>
       </footer>
     </div>
   )
