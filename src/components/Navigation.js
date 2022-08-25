@@ -6,7 +6,7 @@ import email from "../images/socialSvgs/email.svg"
 import discord from "../images/socialSvgs/discord.svg"
 
 
-import orcLogo from "../images/orcLogo.png"
+import orcLogo from "../images/logo599.png"
 
 export default function Navigation() {
   return (

@@ -12,7 +12,7 @@ import emmanualSocialIcon from "../images/socialSvgs/artstation.png"
 import brandonSocialIcon from "../images/socialSvgs/instagram.svg"
 import jamesSocialIcon from "../images/socialSvgs/github.svg"
 export default function Home() {
-
+  const memberInfoToggleState = false;
 
 
   const teamMemberList = [
@@ -162,6 +162,11 @@ export default function Home() {
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
             <h4 className='text-white md:text-[.65em]'>Joined {member.joined}</h4>
+            {/* {memberInfoToggleState? 
+            (
+              <p>Hello</p>
+            ): (<p>Hi</p>)
+            } */}
             <p className="py-2 px-2 md:text-[.6em] lg:text-[.78em] lg:py-0">{member.summary}</p>
             {member.socialImage?  
               (
