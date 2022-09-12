@@ -1,8 +1,6 @@
 import React from 'react'
 
 import logo from "../images/logo3.png"
-import discord from "../images/socialSvgs/discord.svg"
-import email from "../images/socialSvgs/email.svg"
 import whitePaperPdf from "../images/pdfs/whitePaperPdf.pdf"
 
 import jamesTeam from '../images/jamesTeam.jpg'
@@ -12,8 +10,6 @@ import emmanualSocialIcon from "../images/socialSvgs/artstation.png"
 import brandonSocialIcon from "../images/socialSvgs/instagram.svg"
 import jamesSocialIcon from "../images/socialSvgs/github.svg"
 export default function Home() {
-  const memberInfoToggleState = false;
-
 
   const teamMemberList = [
     {
@@ -87,7 +83,7 @@ export default function Home() {
 
 
   return (
-    <div className='flex flex-column py-5'>
+    <div className='flex flex-col py-5'>
       <header className="masthead h-[100vh] pt-[5vh]">
         <div className="content-center">
           <div className="text-center px-4 pt-[27vh]">
@@ -128,7 +124,7 @@ export default function Home() {
 
             <li className='font-bold text-lg underline text-green-500 pb-2 italic animate-bounce'>Q3 2022:<em className='text-[rgb(206,158,26)]'></em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-gray-400'><em className='text-[1.5rem] mr-2 text-green-300'>✔</em>July 2022 - Reviewing developer contracts. Updating Roadmap based on developer and artist timelines. </em></li>
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>August 2022 -</em>  Application for Wave 4 of Ripple Grant, and apply for XRPL dev grant. Concept art for all 4 characters completed. Attributes/Traits concepts begin. </em></li>
+            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-gray-400'><em className='text-[1.5rem] mr-2 text-green-300'>✔</em>August 2022 - Application for Wave 4 of Ripple Grant, and apply for XRPL dev grant. Concept art for all 4 characters completed. Attributes/Traits concepts begin.</em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>September 2022 -</em> 4 Base Characters completed. Discord Community Engagement and Growth. Onboard moderators and any additional admin needed to continue oversight of social communications.  </em></li>
 
             <li className='font-bold text-lg underline text-green-300 pb-2 italic'>Q4 2022:<em className='text-[rgb(206,158,26)]'></em></li>
@@ -154,10 +150,10 @@ export default function Home() {
       </div>
       {/* TEAM MEMBERS */}
     
-      <div className='teamContainer min-h-[60vh] sm:min-h-[80vh] px-4 pb-4 mx-auto flex justify-center align-items-center flex-wrap bg-transparent opacity-80 rounded-lg w-[85vw] sm:w-[60vw] md:w-[85vw] lg:w-[75vw] lg:ml-6 pt-[16vh]' id="teamTop">
+      <div className='teamContainer min-h-[60vh] sm:min-h-[80vh] px-4 pb-4 mx-auto flex justify-center align-items-center flex-wrap bg-transparent opacity-80 rounded-lg w-[85vw] sm:w-[60vw] md:w-[70vw] lg:w-[75vw] pt-[16vh]' id="teamTop">
 
     {teamMemberList.map((member) => (
-        <div key={member.id} className='teamCard text-yellow-400 text-center text-sm leading-tight px-3 py-3 items-center bg-[rgb(58,17,12,.55)] opacity-90 rounded-lg m-1 flex flex-column hover:bg-black sm:min-h-[340px] md:min-h-[350px] md:max-h-[350px] md:max-w-[26vw] lg:min-h-[410px] lg:max-h-[415px] lg:max-w-[21vw] lg:text-md'>
+        <div key={member.id} className='teamCard text-yellow-400 text-center text-sm leading-tight px-3 py-3 items-center bg-[rgb(58,17,12,.55)] opacity-90 rounded-lg m-1 flex flex-col hover:bg-black sm:min-h-[340px] md:min-h-[350px] md:max-h-[350px] md:max-w-[26vw] lg:min-h-[410px] lg:max-h-[415px] lg:max-w-[21vw] lg:text-md'>
             <img src={member.image} className="h-24 w-18 rounded-full"/>
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
