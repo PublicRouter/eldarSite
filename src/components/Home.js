@@ -3,8 +3,8 @@ import React from 'react'
 import logo from "../images/logo3.png"
 import whitePaperPdf from "../images/pdfs/whitePaperPdf.pdf"
 
-import jamesTeam from '../images/jamesTeam.jpg'
-import whitePaper from '../images/whitePaper.jpg'
+import jamesTeam from '../images/jamesTeam.png'
+import whitePaper from '../images/whitePaper.png'
 
 import emmanualSocialIcon from "../images/socialSvgs/artstation.png"
 import brandonSocialIcon from "../images/socialSvgs/instagram.svg"
@@ -78,16 +78,12 @@ export default function Home() {
 
   ]
 
-  
-
-
-
   return (
     <div className='flex flex-col py-5'>
       <header className="masthead h-[100vh] pt-[5vh]">
         <div className="content-center">
           <div className="text-center px-4 pt-[27vh]">
-            <img className="mb-5 h-[16vh] mx-auto sm:h-[23vh] sm:w-[35vw] animate-[pulse_3s_ease-in-out_infinite]" src={logo} />
+            <img className="mb-5 h-[16vh] mx-auto sm:h-[23vh] sm:w-[35vw] animate-[pulse_3s_ease-in-out_infinite]" src={logo} alt="orx logo center page" />
             {/* <a id="about" className="btn bg-orange-700 text-yellow-400 hover:animate-pulse" href="#about">Get Started</a> */}
           </div>
         </div>
@@ -144,8 +140,8 @@ export default function Home() {
       {/* WHITE PAPER */}
       <div className='min-h-[100vh] w-[80vw] my-[5vh] rounded-xl mx-auto opacity-90 mt-[25vh] sm:mt-[33vh] pt-[16vh]' id="whitePaperTop">
         <h2 className='text-center text-orange-500 font-mainTitleTwo underline text-xl pt-8' id="white">White Paper</h2>
-        <a href={whitePaperPdf} target="_blank" className='p-2 mt-3'>
-            <img src={whitePaper} className="w-[50-vw] h-[50vh] mx-auto z-30 hover:border-2" />
+        <a href={whitePaperPdf} target="_blank" rel="noreferrer" className='p-2 mt-3'>
+            <img src={whitePaper} alt="orx character for whitepaper" className="w-[50-vw] h-[50vh] mx-auto z-30 hover:border-2" />
         </a>
       </div>
       {/* TEAM MEMBERS */}
@@ -154,61 +150,25 @@ export default function Home() {
 
     {teamMemberList.map((member) => (
         <div key={member.id} className='teamCard text-yellow-400 text-center text-sm leading-tight px-3 py-3 items-center bg-[rgb(58,17,12,.55)] opacity-90 rounded-lg m-1 flex flex-col hover:bg-black sm:min-h-[340px] md:min-h-[350px] md:max-h-[350px] md:max-w-[26vw] lg:min-h-[410px] lg:max-h-[415px] lg:max-w-[21vw] lg:text-md'>
-            <img src={member.image} className="h-24 w-18 rounded-full"/>
+            <img src={member.image} alt="grunt orx character" className="h-24 w-18 rounded-full"/>
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
             <h4 className='text-white md:text-[.65em]'>Joined {member.joined}</h4>
-            {/* {memberInfoToggleState? 
-            (
-              <p>Hello</p>
-            ): (<p>Hi</p>)
-            } */}
             <p className="py-2 px-2 md:text-[.6em] lg:text-[.78em] lg:py-0">{member.summary}</p>
             {member.socialImage?  
               (
-                <a href={member.socialLink} target="_blank" className='h-6 w-6 rounded-lg hover:p-[1px]'>
-                  <img src={member.socialImage}></img>
+                <a href={member.socialLink} target="_blank" rel="noreferrer" className='h-6 w-6 rounded-lg hover:p-[1px]'>
+                  <img src={member.socialImage} alt="social media icon"></img>
                 </a>
                 
                  
                
-              ) : <h1></h1>
+              ) : <h1> No image availalble.</h1>
             }
         </div>
     ))}
       </div>
-   
-    
-      {/* EMAIL SUBSCRIBE */}
-      {/* <section className="signup-section min-h-[40vh] w-[70vw] md:w-[50vw] mx-auto rounded-lg align-items-center flex flex-wrap bg-transparent opacity-90 my-5 " id="signup">
-            <div className="container px-4 px-lg-5">
-                <div className="row gx-4 gx-lg-5">
-                    <div className=" mx-auto text-center">
-                        <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 className="text-yellow-400 mb-4 text-xl mx-3">Subscribe for ORX weekly updates!</h2>
-                        <form className="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <div className="row input-group-newsletter flex flex-column flex-wrap items-center">
-                                <div className="bg-yellow-500 rounded-lg min-w-[15vw] max-w-[60vw]"><input className="form-control min-w-[40vw] text-center" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div className="col-auto"><button className="btn bg-yellow-500 opacity-100 hover:bg-orange-300 text-white disabled mt-3" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div className="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div className="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <div className="d-none" id="submitSuccessMessage">
-                                <div className="text-center mb-3 mt-2 text-white">
-                                    <div className="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            
-      </section> */}
-      {/* FOOTER */}
+  
       <footer className="footer text-center mt-8 mx-auto">
         <div className="px-4 text-white bg-[rgb(51,30,27,.75)] rounded-lg py-1">Copyright &copy; Eldar Labs 2022</div>
       </footer>

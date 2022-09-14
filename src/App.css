@@ -11,8 +11,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @media(min-width: 640px) {
     .buttonContainer {
         text-decoration: none;
@@ -24,18 +22,14 @@
     }
 }
 
-
-
 @media(max-width: 360px) {
     .leveled {
        background-size:cover;
-    }
+    };
 
     .buttonContainer {
         flex-wrap: wrap;
         justify-content:center;
-
-    }
-
+    };
 }
 
