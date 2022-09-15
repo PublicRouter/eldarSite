@@ -1,6 +1,6 @@
 import './App.css';
 import videoBg from "./images/mainBg2.mp4"
-import imageBg from "./images/mainBackground.png"
+import imageBg from "./images/mainBG.webp"
 
 import Home from './components/Home';
 import Navigation from "./components/Navigation";

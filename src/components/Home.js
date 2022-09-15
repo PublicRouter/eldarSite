@@ -1,10 +1,10 @@
 import React from 'react'
 
-import logo from "../images/logo3.png"
+import logo from "../images/logo3.webp"
 import whitePaperPdf from "../images/pdfs/whitePaperPdf.pdf"
 
-import jamesTeam from '../images/jamesTeam.png'
-import whitePaper from '../images/whitePaper.png'
+import jamesTeam from '../images/jamesTeam.webp'
+import whitePaper from '../images/whitePaper.webp'
 
 import emmanualSocialIcon from "../images/socialSvgs/artstation.png"
 import brandonSocialIcon from "../images/socialSvgs/instagram.svg"
@@ -163,7 +163,7 @@ export default function Home() {
                 
                  
                
-              ) : <h1> No image availalble.</h1>
+              ):<h1></h1>
             }
         </div>
     ))}

@@ -4,7 +4,7 @@ import twitterIcon from "../images/socialSvgs/twitter.svg"
 import email from "../images/socialSvgs/email.svg"
 import discord from "../images/socialSvgs/discord.svg"
 
-import orcLogo from "../images/logo599.png"
+import orcLogo from "../images/logo599.webp"
 
 export default function Navigation() {
   return (
