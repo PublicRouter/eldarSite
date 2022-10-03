@@ -10,6 +10,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* className="fixed top-0 left-0 w-full h-[100vh] object-fill scale-150 sm:scale-100 bg-right-top z-[-10] */
+/* @media (min-aspect-ratio: 16/9) {
+    #bgVideo {
+        width: 100%;
+        height: auto;
+    }
+} */
+
+@media only screen and (min-width:100px) and (max-width: 600px) {
+    #videoSrc {
+        display: none;
+    }
+}
 
 @media(min-width: 640px) {
     .buttonContainer {
@@ -23,10 +36,6 @@
 }
 
 @media(max-width: 360px) {
-    .leveled {
-       background-size:cover;
-    };
-
     .buttonContainer {
         flex-wrap: wrap;
         justify-content:center;
