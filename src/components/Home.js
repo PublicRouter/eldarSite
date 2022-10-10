@@ -90,22 +90,22 @@ export default function Home() {
       </header>
 
       <section className="about-section text-center pt-6 min-h-[100vh]" >
-        <div className="container px-4 px-lg-5">
-          <div className=" justify-content-center">
-            <div className="sm:ml-6 pt-[18vh]"  id="about">
-              <h2 className="mb-4 fst-italic text-orange-500 text-xl font-mainTitleTwo underline">About The Project</h2>
-              <p className="text-white bg-[rgb(48,17,12,.55)] p-4 rounded-lg mx-auto leading-9 sm:w-[55vw] md:w-[65vw] lg:w-[50vw] sm:text-sm md:text-[1em]">
-                A multi-character NFT and card game project inspired by Middle-Earth/Warcraft "orcs” based on a ranking hierarchy: Overlord, Captains, Warchiefs, and Grunts. Eldar is the name of the platform, and we aspire to be a cross-NFT game platform that will be a hub for partnered NFT-project owners to play and communicate in the same game. In doing so we will bring not just value to the XRPL which our game is using, but bringing value to projects that lack the utility and NFT usage function. Instead of being an exclusive NFT game, we aim to be an INCLUSIVE NFT game that brings many together, and makes it fun in the process.
+        
+          <div className="max-w-[80vw] sm:max-w-[65vw] mx-auto">
+            <div className="sm:ml-[3vw] pt-[18vh]"  id="about">
+              <h2 className="mb-4 text-orange-500 text-xl font-mainTitleTwo underline">About The Project</h2>
+              <p className="text-white text-start bg-[rgb(48,17,12,.55)] py-5 sm:py-7 px-10 rounded-lg text-sm md:text-[1em]">
+                A multi-character NFT and card game project inspired by Middle-Earth / Warcraft "orcs” based on a ranking hierarchy: Overlord, Captains, Warchiefs, and Grunts. Eldar is the name of the platform, and we aspire to be a cross-NFT game platform that will be a hub for partnered NFT-project owners to play and communicate in the same game. In doing so we will bring not just value to the XRPL which our game is using, but bringing value to projects that lack the utility and NFT usage function. Instead of being an exclusive NFT game, we aim to be an INCLUSIVE NFT game that brings many together, and makes it fun in the process.
 
               </p>
             </div>
           </div>
-        </div>
+        
       </section>
       {/* ROAD MAP */}
       <div className='text-xl text-white min-h-[100vh] sm:max-w-[75vw] sm:pl-8 sm:mx-auto mt-6 pt-[16vh]'  id="first-item">
         <h2 className='text-center text-orange-500 text-2xl font-mainTitleTwo underline'>Road Map</h2>
-        <ul className='mx-[4vw] mt-3 text-[1rem] p-4 lg:w-[65vw] font-titleSub rounded-lg backdrop-blur-sm bg-[rgb(58,17,12,.55)] opacity-80'>
+        <ul className='mx-[4vw] mt-3 text-[1rem] p-8 lg:w-[65vw] font-titleSub rounded-lg backdrop-blur-sm bg-[rgb(58,17,12,.55)] opacity-80'>
             <li className='font-bold text-lg underline text-green-300 pb-2 italic'>Q3 2021: <em className='text-[rgb(206,158,26)]'></em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>October 2021 - Orx Army Game and Concept Begin</em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-4'><em className='text-gray-400'><em className="text-green-300 mr-2 text-[1.5rem]">✔</em>November 2021 - Concept Artist added to team</em></li>
@@ -125,14 +125,14 @@ export default function Home() {
 
             <li className='font-bold text-lg underline text-green-500 animate-bounce pb-2 italic'>Q4 2022:<em className='text-[rgb(206,158,26)]'></em></li>
             <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>October 2022 -</em> Showcases multiple Orx characters and attribute concepts.</em></li>
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>November 2022 -</em> All 4 Orx characters completed and finalized, 50% of traits completed.</em></li>
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>December 2022 -</em> Minting Date and Game Launch to be determined.</em></li>
+            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>November 2022 -</em> MVP concept ready for showcasing and user testing for critical feedback loops, and adjustments needed.</em></li>
+            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>December 2022 -</em> All 4 Orx characters completed and finalized, 25% of traits completed. Make adjustments to MVP and additional testing of game loops and additional features. Begin conversion of MVP into Unity game engine.</em></li>
 
             <li className='font-bold text-lg underline text-green-300 pb-2 italic'>Q1 2023:<em className='text-[rgb(206,158,26)]'></em></li>
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>January 2023 -</em> Whitepaper update to reveal new features kept secret coming to the Game, and upcoming platform features. 100% traits and attributes completed. </em></li>
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>February 2023 -</em> Orx NFT Collection minting goes live, and launches Eldar Game and Marketplace.</em></li>
-            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>March 2023 -</em> Opening Eldar Merch Store.</em></li>
-
+            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>January 2023 -</em> Minting Date and Game Launch to be determined based on technical progress and team resources and size. Pitch to investment firms, game studios, and potentially game publishers for resources and additional funding. </em></li>
+            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>February 2023 -</em> Whitepaper update to reveal new features kept secret coming to the Game, and upcoming platform features. 100% traits and attributes completed.</em></li>
+            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>March 2023 -</em> Orx NFT Collection minting potentially goes live, and launch of our Marketplace (may be adjusted based on prior milestone progress)</em></li>
+            <li className='font-bold text-md text-green-300 pb-2 ml-2'><em className='text-[rgb(206,158,26)]'><em className='text-[1rem] mr-2 text-gray-400'>⋙</em><em className='text-orange-700'>April 2023 -</em> Orx merchandise becomes available with plans of expanding our platform offerings.</em></li>
         </ul>
         
 
@@ -149,15 +149,15 @@ export default function Home() {
       <div className='teamContainer min-h-[60vh] sm:min-h-[80vh] px-4 pb-4 mx-auto flex justify-center align-items-center flex-wrap bg-transparent opacity-80 rounded-lg w-[85vw] sm:w-[60vw] md:w-[70vw] lg:w-[75vw] pt-[16vh]' id="teamTop">
 
     {teamMemberList.map((member) => (
-        <div key={member.id} className='teamCard text-yellow-400 text-center text-sm leading-tight px-3 py-3 items-center bg-[rgb(58,17,12,.55)] opacity-90 rounded-lg m-1 flex flex-col hover:bg-black sm:min-h-[340px] md:min-h-[350px] md:max-h-[350px] md:max-w-[26vw] lg:min-h-[410px] lg:max-h-[415px] lg:max-w-[21vw] lg:text-md'>
+        <div key={member.id} className='teamCard text-yellow-400 text-center text-sm leading-tight px-3 py-3 items-center bg-[rgb(58,17,12,.55)] opacity-90 rounded-lg m-1 flex flex-col max-w-[30%] hover:bg-black lg:text-md'>
             <img src={member.image} alt="grunt orx character" className="h-24 w-18 rounded-full"/>
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
             <h4 className='text-white md:text-[.65em]'>Joined {member.joined}</h4>
-            <p className="py-2 px-2 md:text-[.6em] lg:text-[.78em] lg:py-0">{member.summary}</p>
+            <p className="p-2 text-start md:text-[.6em] lg:text-[.78em]">{member.summary}</p>
             {member.socialImage?  
               (
-                <a href={member.socialLink} target="_blank" rel="noreferrer" className='h-6 w-6 rounded-lg hover:p-[1px]'>
+                <a href={member.socialLink} target="_blank" rel="noreferrer" className='h-6 w-6 rounded-lg hover:p-[1px] mt-2'>
                   <img src={member.socialImage} alt="social media icon"></img>
                 </a>
                 
