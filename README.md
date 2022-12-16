@@ -17,4 +17,4 @@ Blockchain integrated NFT Platform focusing on XRPL development and Xumm wallet 
 <br>
 <br>
 
-![homePage](/src/images/homePage.png)
+![homePage](./src/images/siteImage.png)
