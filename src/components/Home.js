@@ -149,12 +149,12 @@ export default function Home() {
       <div className='teamContainer min-h-[60vh] sm:min-h-[80vh] px-4 pb-4 mx-auto flex justify-center align-items-center flex-wrap bg-transparent opacity-80 rounded-lg w-[85vw] sm:w-[60vw] md:w-[70vw] lg:w-[75vw] pt-[16vh]' id="teamTop">
 
     {teamMemberList.map((member) => (
-        <div key={member.id} className='teamCard text-yellow-400 text-center text-sm leading-tight px-3 py-3 items-center bg-[rgb(58,17,12,.55)] opacity-90 rounded-lg m-1 flex flex-col max-w-[30%] hover:bg-black lg:text-md'>
+        <div key={member.id} className='teamCard min-w-[45%] md:min-w-[28%] text-yellow-400 text-center text-[.7em] leading-tight px-3 py-3 items-center bg-[rgb(58,17,12,.55)] opacity-90 rounded-lg m-1 flex flex-col max-w-[30%] hover:bg-black lg:text-md'>
             <img src={member.image} alt="grunt orx character" className="h-24 w-18 rounded-full"/>
             <h2 className='text-orange-600 mt-2'>{member.name}</h2>
             <h4 className='text-white md:text-[.75em]'>{member.position}</h4>
             <h4 className='text-white md:text-[.65em]'>Joined {member.joined}</h4>
-            <p className="p-2 text-start md:text-[.6em] lg:text-[.78em]">{member.summary}</p>
+            {/* <p className="p-2 text-start md:text-[.6em] lg:text-[.78em]">{member.summary}</p> */}
             {member.socialImage?  
               (
                 <a href={member.socialLink} target="_blank" rel="noreferrer" className='h-6 w-6 rounded-lg hover:p-[1px] mt-2'>
